@@ -1,5 +1,28 @@
 ##Optional Ubuntu installation steps guide
-1.- Do not Select any components, click continue:
+
+1.- Select **Load installer components from CD**:
+
+```
+┌─────────┤ [?] Ubuntu installer main menu ├─────────┐
+│                                                    │
+│ Choose the next step in the install process:       │
+│                                                    │
+│       Choose language                              │
+│       Configure the keyboard                       │
+│       Detect and mount CD-ROM                      │
+│       Load debconf preconfiguration file           │
+│       Load installer components from CD            │
+│       Change debconf priority                      │
+│       Check the CD-ROM(s) integrity                │
+│       Save debug logs                              │
+│       Execute a shell                              │
+│       Abort the installation                       │
+│                                                    │
+└────────────────────────────────────────────────────┘
+
+```   
+
+2.- Do not Select any components, click continue:
 
 ```
 ┌────────────────┤ [?] Load installer components from CD ├────────────────┐
@@ -41,7 +64,7 @@
 └─────────────────────────────────────────────────────────────────────────┘          
 ```
 
-2.- Select **em1**:
+3.- Select **em1**:
 
 ```
 ┌─────────────────────┤ [!!] Configure the network ├──────────────────────┐
@@ -64,7 +87,7 @@
 └─────────────────────────────────────────────────────────────────────────┘                                               
 ```
 
-3.- Configure a hostname
+4.- Configure a hostname
 
 ```
 ┌─────────────────────┤ [!] Configure the network ├─────────────────────┐
@@ -85,7 +108,7 @@
 └───────────────────────────────────────────────────────────────────────┘
 ```
 
-4.- Configure user Full Name
+5.- Configure user Full Name
 
 ```
 ┌──────────────────┤ [!!] Set up users and passwords ├──────────────────┐
@@ -107,7 +130,7 @@
 └───────────────────────────────────────────────────────────────────────┘
 ```    
 
-5.- Configure user Name  
+6.- Configure user Name  
 
 ```
 ┌──────────────────┤ [!!] Set up users and passwords ├──────────────────┐
@@ -126,7 +149,7 @@
 └───────────────────────────────────────────────────────────────────────┘                                                                          
 ```
 
-6.- Password
+7.- Password
 
 ```
 ┌───────────────┤ [!!] Set up users and passwords ├───────────────┐
@@ -155,7 +178,7 @@
 └───────────────────────────────────────────────────────────────────────┘     
 ```        
 
-7.- Encrypt Home Directory
+8.- Encrypt Home Directory
 
 ```
 ┌──────────────────┤ [!] Set up users and passwords ├──────────────────┐
@@ -174,7 +197,7 @@
 └──────────────────────────────────────────────────────────────────────┘   
 ```
 
-8.- Select your local TimeZone
+9.- Select your local TimeZone
 
 ```
 ┌───┤ [!] Configure the clock ├────┐
@@ -197,7 +220,7 @@
 └──────────────────────────────────┘
 ```
 
-9.- Do not unmount /dev/sdb. Select "NO"
+10.- Do not unmount /dev/sdb. Select "NO"
 
 ```
 ┌───────────────────────┤ [!!] Partition disks ├────────────────────────┐
@@ -219,7 +242,7 @@
 └───────────────────────────────────────────────────────────────────────┘   
 ```
 
-10.- Partition disks - Select Use entire disk and setup an LVM
+11.- Partition disks - Select Use entire disk and setup an LVM
 
 ```
 ┌────────────────────────┤ [!!] Partition disks ├─────────────────────────┐
@@ -245,7 +268,7 @@
 └─────────────────────────────────────────────────────────────────────────┘  
 ```
 
-11.- Select **sda**, and then confirm changes, and next use the whole drive by selecting "Continue".
+12.- Select **sda**, and then confirm changes, and next use the whole drive by selecting "Continue".
 
 ```
 ┌────────────────────────┤ [!!] Partition disks ├─────────────────────────┐
@@ -323,7 +346,7 @@
 └──────────────────────────────────────────────────────────────────────┘             
 ```
 
-12.- Finally the Ubuntu OS installs itself:
+13.- Finally the Ubuntu OS installs itself:
 
 ```
 ┌──────────────────────┤ Installing the system... ├───────────────────────┐
@@ -335,7 +358,7 @@
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-13.- Select Install the GRUB boot loader on a hard disk and then select "Yes"
+14.- Select Install the GRUB boot loader on a hard disk and then select "Yes"
 
 ```
 ┌──────────────┤ [!] Ubuntu installer main menu ├──────────────┐
@@ -386,7 +409,7 @@
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-14.- Finish the installation
+15.- Finish the installation
 
 ```
 ┌────────────────────┤ [!] Finish the installation ├────────────────────┐
